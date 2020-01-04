@@ -10,7 +10,7 @@ muscle_group=st.sidebar.selectbox("Choose targeted muscle group",['Full Body','A
 exercises_n=st.sidebar.slider("Number of exercises",4,20)
 
 if intensity=='Hardcore':
-    pic='/home/konrad/projects/exercise web app/hardcore'
+    pic='hardcore'
     st.image(pic, use_column_width=True)
 
 
@@ -22,7 +22,7 @@ elif intensity=='Medium':
 elif intensity=='Hardcore':
     st.markdown("Perform the exercises below in a following manner 12-20 reps. Take no breaks in between the exercises and then die...")
 
-df=pd.read_csv('/home/konrad/projects/exercise web app/exercises.csv')
+df=pd.read_csv('exercises.csv')
 
 #st.dataframe(df['Exercise'].sample(exercises_n))
 try:
