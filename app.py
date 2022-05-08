@@ -14,7 +14,6 @@ if intensity=='Hardcore':
     st.image(pic, use_column_width=True)
 
 
-
 if intensity=='Low':
     st.markdown("Perform the exercises below in a following manner 8-10 reps. 1 min-2 min breaks in between the exercises")
 elif intensity=='Medium':
